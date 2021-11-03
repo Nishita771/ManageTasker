@@ -1,0 +1,39 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <servlet-name>LoginController</servlet-name>
+    <servlet-class>todoapp.web.LoginController</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UserController</servlet-name>
+    <servlet-class>todoapp.web.UserController</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>TodoController</servlet-name>
+    <servlet-class>todoapp.web.TodoController</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LogoutController</servlet-name>
+    <servlet-class>todoapp.web.LogoutController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginController</servlet-name>
+    <url-pattern>/LoginController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserController</servlet-name>
+    <url-pattern>/UserController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TodoController</servlet-name>
+    <url-pattern>/TodoController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LogoutController</servlet-name>
+    <url-pattern>/LogoutController</url-pattern>
+  </servlet-mapping>
+</web-app>
