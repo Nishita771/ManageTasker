@@ -1,1 +1,1 @@
-web: java -war TaskManagerr.war
+web: java --war TaskManagerr.war
