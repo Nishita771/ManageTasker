@@ -1,1 +1,1 @@
-web: java -cp target/classes/:target/dependency/* org.example.TaskManagerr
+web: java -war C:\Users\DELL\IdeaProjects\TaskManagerr\target\TaskManagerr.war
