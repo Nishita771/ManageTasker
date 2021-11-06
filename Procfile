@@ -1,1 +1,1 @@
-web:  java -war target/TaskManagerr.war
+web:  web: java $JAVA_OPTS -war target/TaskManagerr --port $PORT target/*.war
