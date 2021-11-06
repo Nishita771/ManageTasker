@@ -1,1 +1,1 @@
-web: java -cp target/classes/:target/dependency/* org.example.index
+web: java -cp target/classes/:target/dependency/* org.example.TaskManagerr
